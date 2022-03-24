@@ -1,0 +1,143 @@
+body
+    margin: 0
+    padding: 0
+    width: 100%
+    height: 100%
+    min-width: 810px
+
+#container
+    display: flex
+    flex-direction: row
+
+#img-side
+    display: flex
+    flex-direction: column
+    height: 100vh
+    width: 50vw
+
+#img-citation>a
+    color: white
+
+#img-citation
+    color: white
+
+#logo-cont
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 100px;
+
+#logo
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 40%
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+
+#logo>h1
+    font-size: 100px
+    color: white
+
+#cit
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+.bg
+    background-image: url(bg.jpg)
+    height: 100%
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+#form-side
+    height: 99vh
+    width: -webkit-fill-available
+    background-color: rgb(228, 227, 227)
+
+form
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+
+label
+    display: flex
+    flex-direction: column
+
+#form-div
+    display: flex
+    flex-direction: column
+    gap: 20px
+
+#form-div>div
+    display: flex
+    flex-direction: row
+    gap: 100px
+
+#form-p
+    margin-left: 50px;
+    width: 38vw;
+    font-size: larger;
+
+#form-box
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px -3px #0000006b, 0px -1px 12px -6px #00000069;
+    border-radius: 7px;
+
+#form-box>div
+    margin-left: 50px;
+    margin-bottom: 25px;
+
+#submit-box
+    margin-left: 50px
+    margin-top: 30px
+    font-size: 20px
+
+#submit-box>p>a
+    color: #596d48
+    text-decoration: none
+    font-weight: bolder
+
+button
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background:#596D48;
+    padding: 15px;
+    color: white;
+
+input
+    border: solid #e5e7eb 1px;
+    border-radius: 3px;
+    padding: 5px;
+
+input:focus
+    border: 1px #00f solid;
+    box-shadow: 0px 1px 3px 0px #000;
+
+input:focus-visible
+    outline: none
+
+.error
+    border: red 1px solid
+
+#message
+    color: #f00;
+    font-size: 15px;
+    margin-top: -20px;
+    visibility: hidden;
+    margin-bottom: -2px;
