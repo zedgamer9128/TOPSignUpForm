@@ -13,3 +13,15 @@ confirmPass.addEventListener("focusout", function() {
         confirmPass.classList.remove("error")
     }
 })
+
+pass.addEventListener("focusout", function () {
+        if (pass.value !== confirmPass.value) {
+            document.querySelector("#message").style.visibility = "visible"
+            pass.classList = "error";
+            confirmPass.classList = "error";
+        } else if (document.querySelector("#message")) {
+            document.querySelector("#message").style.visibility = "hidden"
+            pass.classList.remove("error")
+            confirmPass.classList.remove("error")
+        }
+})
